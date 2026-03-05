@@ -1,0 +1,167 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+
+background:
+linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+url("students.jpg");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+}
+
+/* Navigation */
+
+nav{
+position:absolute;
+top:0;
+width:100%;
+padding:20px;
+text-align:center;
+background:transparent;
+z-index:10;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 20px;
+font-size:18px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#ccc;
+}
+
+/* Hero */
+
+.hero{
+height:100vh;
+width:100%;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+
+background:
+linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+url("students.png");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+
+
+.hero h1{
+font-size:48px;
+}
+
+/* Subject Cards */
+
+.subjects{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:80px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:30px;
+width:200px;
+text-align:center;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card{
+background:white;
+padding:35px;
+width:240px;
+text-align:center;
+border-radius:15px;
+
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+
+transition:transform 0.3s, box-shadow 0.3s;
+}
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 35px rgba(0,0,0,0.25);
+}
+
+.card button:hover{
+background:#2e54c7;
+}
+
+/* Study Tip Section */
+
+.tips{
+text-align:center;
+padding:40px;
+background:white;
+margin:40px;
+border-radius:10px;
+}
+
+.tips button{
+margin-top:10px;
+padding:10px 20px;
+border:none;
+background:#3a6df0;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* Footer */
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+.hero{
+    .hero{
+text-align:center;
+padding:120px 20px;
+color:white;
+
+background:
+linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+url("students.png");
+
+background-size:cover;
+background-position:center;
+}
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.subjects{
+margin-top:-80px;
+}
+.subjects{
+display:flex;
+justify-content:center;
+align-items:center;
+flex-wrap:wrap;
+gap:40px;
+padding:120px 20px;
+
+background:linear-gradient(135deg,#eef2f7,#d9e4f5);
+}
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 35px rgba(0,0,0,0.25);
+}
